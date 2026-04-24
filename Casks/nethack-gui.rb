@@ -7,7 +7,11 @@ cask "nethack-gui" do
   name "NetHack GUI"
   desc "Dungeon exploration game with graphical interface"
   homepage "https://github.com/abcbarryn/NetHack/tree/NetHack-3.7"
-
+  
+  # Requirement checks
+  depends_on macos: ">= :26"
+  depends_on arch: :arm64
+  
   # This identifies the .app inside your DMG to move to /Applications
   app "NetHack.app"
   postflight do
