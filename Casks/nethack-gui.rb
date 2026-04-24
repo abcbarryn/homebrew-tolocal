@@ -10,4 +10,9 @@ cask "nethack-gui" do
 
   # This identifies the .app inside your DMG to move to /Applications
   app "NetHack.app"
+  postflight do
+    system_command "xattr",
+                   args: ["-cr", "#{appdir}/NetHack.app"],
+                   sudo: false
+  end
 end
