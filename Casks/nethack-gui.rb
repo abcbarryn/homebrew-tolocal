@@ -1,6 +1,6 @@
 cask "nethack-gui" do
   version "3.7.0"
-  sha256 "5ac0aaa68e08d6686d5cb6bec12122a4e508a5f9f57a7a6bd731d5207a38a697"
+  sha256 "366738949f2a4cfd6e66cffb11f734c5261e9c6d33ccd34b66690970741a1d08"
 
   # Replace with the public URL to your DMG file
   url "https://github.com/abcbarryn/NetHack/releases/download/NetHack-3.7.0/NetHack.dmg"
