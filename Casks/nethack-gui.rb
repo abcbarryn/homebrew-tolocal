@@ -1,6 +1,6 @@
 cask "nethack-gui" do
   version "3.7.0"
-  sha256 "366738949f2a4cfd6e66cffb11f734c5261e9c6d33ccd34b66690970741a1d08"
+  sha256 "c54b41f069aeda3e49d9b4f5371d94c1c6589759217f044d958eafd6b68098e2"
 
   # Replace with the public URL to your DMG file
   url "https://github.com/abcbarryn/NetHack/releases/download/NetHack-3.7.0/NetHack.dmg"
@@ -9,7 +9,7 @@ cask "nethack-gui" do
   homepage "https://github.com/abcbarryn/NetHack/tree/NetHack-3.7"
   
   # Requirement checks
-  depends_on macos: ">= :tahoe"
+  depends_on macos: ">= :big_sur"
   #depends_on arch: :arm64
   
   # This identifies the .app inside your DMG to move to /Applications
